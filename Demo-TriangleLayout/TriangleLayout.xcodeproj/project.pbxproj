@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5209930719A8FFC700356E9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5209930619A8FFC700356E9A /* Foundation.framework */; };
+		5209930919A8FFC700356E9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5209930819A8FFC700356E9A /* CoreGraphics.framework */; };
+		5209930B19A8FFC700356E9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5209930A19A8FFC700356E9A /* UIKit.framework */; };
+		5209931119A8FFC700356E9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5209930F19A8FFC700356E9A /* InfoPlist.strings */; };
+		5209931319A8FFC700356E9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5209931219A8FFC700356E9A /* main.m */; };
+		5209931719A8FFC700356E9A /* TriangleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5209931619A8FFC700356E9A /* TriangleAppDelegate.m */; };
+		5209931A19A8FFC700356E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5209931819A8FFC700356E9A /* Main.storyboard */; };
+		5209931D19A8FFC700356E9A /* TriangleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5209931C19A8FFC700356E9A /* TriangleViewController.m */; };
+		5209931F19A8FFC700356E9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5209931E19A8FFC700356E9A /* Images.xcassets */; };
+		5209932619A8FFC700356E9A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5209932519A8FFC700356E9A /* XCTest.framework */; };
+		5209932719A8FFC700356E9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5209930619A8FFC700356E9A /* Foundation.framework */; };
+		5209932819A8FFC700356E9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5209930A19A8FFC700356E9A /* UIKit.framework */; };
+		5209933019A8FFC700356E9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5209932E19A8FFC700356E9A /* InfoPlist.strings */; };
+		5209933219A8FFC700356E9A /* TriangleLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5209933119A8FFC700356E9A /* TriangleLayoutTests.m */; };
+		5209933D19AA0EBA00356E9A /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5209933C19AA0EBA00356E9A /* Triangle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5209932919A8FFC700356E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 520992FB19A8FFC600356E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5209930219A8FFC700356E9A;
+			remoteInfo = TriangleLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5209930319A8FFC700356E9A /* TriangleLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriangleLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5209930619A8FFC700356E9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5209930819A8FFC700356E9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5209930A19A8FFC700356E9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5209930E19A8FFC700356E9A /* TriangleLayout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TriangleLayout-Info.plist"; sourceTree = "<group>"; };
+		5209931019A8FFC700356E9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5209931219A8FFC700356E9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5209931419A8FFC700356E9A /* TriangleLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TriangleLayout-Prefix.pch"; sourceTree = "<group>"; };
+		5209931519A8FFC700356E9A /* TriangleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TriangleAppDelegate.h; sourceTree = "<group>"; };
+		5209931619A8FFC700356E9A /* TriangleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriangleAppDelegate.m; sourceTree = "<group>"; };
+		5209931919A8FFC700356E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5209931B19A8FFC700356E9A /* TriangleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TriangleViewController.h; sourceTree = "<group>"; };
+		5209931C19A8FFC700356E9A /* TriangleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriangleViewController.m; sourceTree = "<group>"; };
+		5209931E19A8FFC700356E9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5209932419A8FFC700356E9A /* TriangleLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriangleLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5209932519A8FFC700356E9A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5209932D19A8FFC700356E9A /* TriangleLayoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TriangleLayoutTests-Info.plist"; sourceTree = "<group>"; };
+		5209932F19A8FFC700356E9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5209933119A8FFC700356E9A /* TriangleLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriangleLayoutTests.m; sourceTree = "<group>"; };
+		5209933B19AA0EBA00356E9A /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		5209933C19AA0EBA00356E9A /* Triangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Triangle.m; sourceTree = "<group>"; };
+		5209933F19AA1FEE00356E9A /* 安国伟.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "安国伟.jpg"; sourceTree = "<group>"; };
+		5209934019AA1FEE00356E9A /* 白佳洁.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "白佳洁.jpg"; sourceTree = "<group>"; };
+		5209934119AA1FEE00356E9A /* 常宽.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "常宽.jpg"; sourceTree = "<group>"; };
+		5209934219AA1FEE00356E9A /* 陈博.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "陈博.jpg"; sourceTree = "<group>"; };
+		5209934319AA1FEE00356E9A /* 陈昕.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "陈昕.jpg"; sourceTree = "<group>"; };
+		5209934419AA1FEE00356E9A /* 邓智.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "邓智.jpg"; sourceTree = "<group>"; };
+		5209934519AA1FEE00356E9A /* 丁昊.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "丁昊.jpg"; sourceTree = "<group>"; };
+		5209934619AA1FEE00356E9A /* 符之飞.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "符之飞.jpg"; sourceTree = "<group>"; };
+		5209934719AA1FEE00356E9A /* 韩雪峰.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩雪峰.jpg"; sourceTree = "<group>"; };
+		5209934819AA1FEE00356E9A /* 蒋寒霄.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蒋寒霄.jpg"; sourceTree = "<group>"; };
+		5209934919AA1FEE00356E9A /* 靳姜珊.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "靳姜珊.jpg"; sourceTree = "<group>"; };
+		5209934A19AA1FEE00356E9A /* 李仲真.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "李仲真.jpg"; sourceTree = "<group>"; };
+		5209934B19AA1FEE00356E9A /* 马宏达.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "马宏达.jpg"; sourceTree = "<group>"; };
+		5209934C19AA1FEE00356E9A /* 马英.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "马英.jpg"; sourceTree = "<group>"; };
+		5209934D19AA1FEE00356E9A /* 聂富龄.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "聂富龄.jpg"; sourceTree = "<group>"; };
+		5209934E19AA1FEE00356E9A /* 邱尧尧.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "邱尧尧.jpg"; sourceTree = "<group>"; };
+		5209934F19AA1FEE00356E9A /* 宋旭东.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "宋旭东.jpg"; sourceTree = "<group>"; };
+		5209935019AA1FEE00356E9A /* 王晨.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "王晨.jpg"; sourceTree = "<group>"; };
+		5209935119AA1FEE00356E9A /* 王建男.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "王建男.jpg"; sourceTree = "<group>"; };
+		5209935219AA1FEE00356E9A /* 王兆云.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "王兆云.jpg"; sourceTree = "<group>"; };
+		5209935319AA1FEE00356E9A /* 杨毅.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "杨毅.jpg"; sourceTree = "<group>"; };
+		5209935419AA1FEE00356E9A /* 尹乙林.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "尹乙林.jpg"; sourceTree = "<group>"; };
+		5209935519AA1FEE00356E9A /* 张冠超.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "张冠超.jpg"; sourceTree = "<group>"; };
+		5209935619AA1FEE00356E9A /* 张宁浩.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "张宁浩.jpg"; sourceTree = "<group>"; };
+		5209935719AA1FEE00356E9A /* 张启峰.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "张启峰.jpg"; sourceTree = "<group>"; };
+		5209935819AA1FEE00356E9A /* 张世琦.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "张世琦.jpg"; sourceTree = "<group>"; };
+		5209935919AA1FEE00356E9A /* 张雅琼.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "张雅琼.jpg"; sourceTree = "<group>"; };
+		5209935A19AA1FEE00356E9A /* 赵生辉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "赵生辉.jpg"; sourceTree = "<group>"; };
+		5209935B19AA1FEE00356E9A /* 郑海坤.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "郑海坤.jpg"; sourceTree = "<group>"; };
+		5209935C19AA1FEE00356E9A /* 周琦.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "周琦.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5209930019A8FFC700356E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5209930919A8FFC700356E9A /* CoreGraphics.framework in Frameworks */,
+				5209930B19A8FFC700356E9A /* UIKit.framework in Frameworks */,
+				5209930719A8FFC700356E9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5209932119A8FFC700356E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5209932619A8FFC700356E9A /* XCTest.framework in Frameworks */,
+				5209932819A8FFC700356E9A /* UIKit.framework in Frameworks */,
+				5209932719A8FFC700356E9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		520992FA19A8FFC600356E9A = {
+			isa = PBXGroup;
+			children = (
+				5209930C19A8FFC700356E9A /* TriangleLayout */,
+				5209932B19A8FFC700356E9A /* TriangleLayoutTests */,
+				5209930519A8FFC700356E9A /* Frameworks */,
+				5209930419A8FFC700356E9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5209930419A8FFC700356E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5209930319A8FFC700356E9A /* TriangleLayout.app */,
+				5209932419A8FFC700356E9A /* TriangleLayoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5209930519A8FFC700356E9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5209930619A8FFC700356E9A /* Foundation.framework */,
+				5209930819A8FFC700356E9A /* CoreGraphics.framework */,
+				5209930A19A8FFC700356E9A /* UIKit.framework */,
+				5209932519A8FFC700356E9A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5209930C19A8FFC700356E9A /* TriangleLayout */ = {
+			isa = PBXGroup;
+			children = (
+				5209933E19AA1FE100356E9A /* img */,
+				5209931519A8FFC700356E9A /* TriangleAppDelegate.h */,
+				5209931619A8FFC700356E9A /* TriangleAppDelegate.m */,
+				5209931B19A8FFC700356E9A /* TriangleViewController.h */,
+				5209931C19A8FFC700356E9A /* TriangleViewController.m */,
+				5209933B19AA0EBA00356E9A /* Triangle.h */,
+				5209933C19AA0EBA00356E9A /* Triangle.m */,
+				5209931819A8FFC700356E9A /* Main.storyboard */,
+				5209931E19A8FFC700356E9A /* Images.xcassets */,
+				5209930D19A8FFC700356E9A /* Supporting Files */,
+			);
+			path = TriangleLayout;
+			sourceTree = "<group>";
+		};
+		5209930D19A8FFC700356E9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5209930E19A8FFC700356E9A /* TriangleLayout-Info.plist */,
+				5209930F19A8FFC700356E9A /* InfoPlist.strings */,
+				5209931219A8FFC700356E9A /* main.m */,
+				5209931419A8FFC700356E9A /* TriangleLayout-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5209932B19A8FFC700356E9A /* TriangleLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				5209933119A8FFC700356E9A /* TriangleLayoutTests.m */,
+				5209932C19A8FFC700356E9A /* Supporting Files */,
+			);
+			path = TriangleLayoutTests;
+			sourceTree = "<group>";
+		};
+		5209932C19A8FFC700356E9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5209932D19A8FFC700356E9A /* TriangleLayoutTests-Info.plist */,
+				5209932E19A8FFC700356E9A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5209933E19AA1FE100356E9A /* img */ = {
+			isa = PBXGroup;
+			children = (
+				5209933F19AA1FEE00356E9A /* 安国伟.jpg */,
+				5209934019AA1FEE00356E9A /* 白佳洁.jpg */,
+				5209934119AA1FEE00356E9A /* 常宽.jpg */,
+				5209934219AA1FEE00356E9A /* 陈博.jpg */,
+				5209934319AA1FEE00356E9A /* 陈昕.jpg */,
+				5209934419AA1FEE00356E9A /* 邓智.jpg */,
+				5209934519AA1FEE00356E9A /* 丁昊.jpg */,
+				5209934619AA1FEE00356E9A /* 符之飞.jpg */,
+				5209934719AA1FEE00356E9A /* 韩雪峰.jpg */,
+				5209934819AA1FEE00356E9A /* 蒋寒霄.jpg */,
+				5209934919AA1FEE00356E9A /* 靳姜珊.jpg */,
+				5209934A19AA1FEE00356E9A /* 李仲真.jpg */,
+				5209934B19AA1FEE00356E9A /* 马宏达.jpg */,
+				5209934C19AA1FEE00356E9A /* 马英.jpg */,
+				5209934D19AA1FEE00356E9A /* 聂富龄.jpg */,
+				5209934E19AA1FEE00356E9A /* 邱尧尧.jpg */,
+				5209934F19AA1FEE00356E9A /* 宋旭东.jpg */,
+				5209935019AA1FEE00356E9A /* 王晨.jpg */,
+				5209935119AA1FEE00356E9A /* 王建男.jpg */,
+				5209935219AA1FEE00356E9A /* 王兆云.jpg */,
+				5209935319AA1FEE00356E9A /* 杨毅.jpg */,
+				5209935419AA1FEE00356E9A /* 尹乙林.jpg */,
+				5209935519AA1FEE00356E9A /* 张冠超.jpg */,
+				5209935619AA1FEE00356E9A /* 张宁浩.jpg */,
+				5209935719AA1FEE00356E9A /* 张启峰.jpg */,
+				5209935819AA1FEE00356E9A /* 张世琦.jpg */,
+				5209935919AA1FEE00356E9A /* 张雅琼.jpg */,
+				5209935A19AA1FEE00356E9A /* 赵生辉.jpg */,
+				5209935B19AA1FEE00356E9A /* 郑海坤.jpg */,
+				5209935C19AA1FEE00356E9A /* 周琦.jpg */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5209930219A8FFC700356E9A /* TriangleLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5209933519A8FFC700356E9A /* Build configuration list for PBXNativeTarget "TriangleLayout" */;
+			buildPhases = (
+				520992FF19A8FFC700356E9A /* Sources */,
+				5209930019A8FFC700356E9A /* Frameworks */,
+				5209930119A8FFC700356E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriangleLayout;
+			productName = TriangleLayout;
+			productReference = 5209930319A8FFC700356E9A /* TriangleLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5209932319A8FFC700356E9A /* TriangleLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5209933819A8FFC700356E9A /* Build configuration list for PBXNativeTarget "TriangleLayoutTests" */;
+			buildPhases = (
+				5209932019A8FFC700356E9A /* Sources */,
+				5209932119A8FFC700356E9A /* Frameworks */,
+				5209932219A8FFC700356E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5209932A19A8FFC700356E9A /* PBXTargetDependency */,
+			);
+			name = TriangleLayoutTests;
+			productName = TriangleLayoutTests;
+			productReference = 5209932419A8FFC700356E9A /* TriangleLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		520992FB19A8FFC600356E9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Triangle;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = lanou;
+				TargetAttributes = {
+					5209932319A8FFC700356E9A = {
+						TestTargetID = 5209930219A8FFC700356E9A;
+					};
+				};
+			};
+			buildConfigurationList = 520992FE19A8FFC600356E9A /* Build configuration list for PBXProject "TriangleLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 520992FA19A8FFC600356E9A;
+			productRefGroup = 5209930419A8FFC700356E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5209930219A8FFC700356E9A /* TriangleLayout */,
+				5209932319A8FFC700356E9A /* TriangleLayoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5209930119A8FFC700356E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5209931F19A8FFC700356E9A /* Images.xcassets in Resources */,
+				5209931119A8FFC700356E9A /* InfoPlist.strings in Resources */,
+				5209931A19A8FFC700356E9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5209932219A8FFC700356E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5209933019A8FFC700356E9A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		520992FF19A8FFC700356E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5209931719A8FFC700356E9A /* TriangleAppDelegate.m in Sources */,
+				5209931D19A8FFC700356E9A /* TriangleViewController.m in Sources */,
+				5209931319A8FFC700356E9A /* main.m in Sources */,
+				5209933D19AA0EBA00356E9A /* Triangle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5209932019A8FFC700356E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5209933219A8FFC700356E9A /* TriangleLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5209932A19A8FFC700356E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5209930219A8FFC700356E9A /* TriangleLayout */;
+			targetProxy = 5209932919A8FFC700356E9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5209930F19A8FFC700356E9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5209931019A8FFC700356E9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5209931819A8FFC700356E9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5209931919A8FFC700356E9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5209932E19A8FFC700356E9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5209932F19A8FFC700356E9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5209933319A8FFC700356E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5209933419A8FFC700356E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5209933619A8FFC700356E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TriangleLayout/TriangleLayout-Prefix.pch";
+				INFOPLIST_FILE = "TriangleLayout/TriangleLayout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5209933719A8FFC700356E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TriangleLayout/TriangleLayout-Prefix.pch";
+				INFOPLIST_FILE = "TriangleLayout/TriangleLayout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5209933919A8FFC700356E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TriangleLayout.app/TriangleLayout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TriangleLayout/TriangleLayout-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TriangleLayoutTests/TriangleLayoutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5209933A19A8FFC700356E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TriangleLayout.app/TriangleLayout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TriangleLayout/TriangleLayout-Prefix.pch";
+				INFOPLIST_FILE = "TriangleLayoutTests/TriangleLayoutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		520992FE19A8FFC600356E9A /* Build configuration list for PBXProject "TriangleLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5209933319A8FFC700356E9A /* Debug */,
+				5209933419A8FFC700356E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5209933519A8FFC700356E9A /* Build configuration list for PBXNativeTarget "TriangleLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5209933619A8FFC700356E9A /* Debug */,
+				5209933719A8FFC700356E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5209933819A8FFC700356E9A /* Build configuration list for PBXNativeTarget "TriangleLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5209933919A8FFC700356E9A /* Debug */,
+				5209933A19A8FFC700356E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 520992FB19A8FFC600356E9A /* Project object */;
+}
