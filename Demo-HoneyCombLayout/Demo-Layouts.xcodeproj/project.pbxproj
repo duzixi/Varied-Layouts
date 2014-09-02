@@ -379,6 +379,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Demo-Layouts/Demo-Layouts-Prefix.pch";
 				INFOPLIST_FILE = "Demo-Layouts/Demo-Layouts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +393,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Demo-Layouts/Demo-Layouts-Prefix.pch";
 				INFOPLIST_FILE = "Demo-Layouts/Demo-Layouts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +458,7 @@
 				524EDEEA19B4C2550095E0CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		524EDEEB19B4C2550095E0CF /* Build configuration list for PBXNativeTarget "Demo-LayoutsTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +467,7 @@
 				524EDEED19B4C2550095E0CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
